@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+.heading h1{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+.nav_bar{
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 5%;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+    padding: 8px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    mix-blend-mode: multiply;
+}
+
+.nav_menu span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container_title{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+    position: relative;
+}
+.container_title h3{
+    background-color: #ffff00;
+    margin-top: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+.Images img{
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px red;
+    position: absolute;
+}
+.image_one img{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.image_two img{
+    margin-left: 60%;
+}
+
+.Title1 p{
+    position: absolute;
+    margin-left: 27.5%;
+    margin-top: 15.5%;
+    background-color: #ffff00;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Title2 p{
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 15.5%;
+    background-color: #ffff00;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main_container > img{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+}
